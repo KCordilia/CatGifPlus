@@ -12,6 +12,15 @@
 		8AACC52222D8714A00E4D8E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AACC52022D8714A00E4D8E6 /* Main.storyboard */; };
 		8AACC52422D8714C00E4D8E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AACC52322D8714C00E4D8E6 /* Assets.xcassets */; };
 		8AACC52722D8714C00E4D8E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AACC52522D8714C00E4D8E6 /* LaunchScreen.storyboard */; };
+		8AACC53022D8719B00E4D8E6 /* CatAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AACC52F22D8719B00E4D8E6 /* CatAPI.swift */; };
+		8AACC53422D8760500E4D8E6 /* CatModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8AACC53222D8760500E4D8E6 /* CatModel.xcdatamodeld */; };
+		8AACC53622D8764100E4D8E6 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AACC53522D8764100E4D8E6 /* CoreDataStack.swift */; };
+		8AACC53922D8767100E4D8E6 /* Cat+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AACC53722D8767100E4D8E6 /* Cat+CoreDataClass.swift */; };
+		8AACC53A22D8767100E4D8E6 /* Cat+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AACC53822D8767100E4D8E6 /* Cat+CoreDataProperties.swift */; };
+		8AACC53C22D876EA00E4D8E6 /* ServerCat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AACC53B22D876EA00E4D8E6 /* ServerCat.swift */; };
+		8AACC53E22D877B900E4D8E6 /* Country+Saving.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AACC53D22D877B900E4D8E6 /* Country+Saving.swift */; };
+		8AACC54022D8783000E4D8E6 /* Country+Queries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AACC53F22D8783000E4D8E6 /* Country+Queries.swift */; };
+		8AACC54622D87FAB00E4D8E6 /* CatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AACC54522D87FAB00E4D8E6 /* CatCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +31,15 @@
 		8AACC52322D8714C00E4D8E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8AACC52622D8714C00E4D8E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8AACC52822D8714C00E4D8E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AACC52F22D8719B00E4D8E6 /* CatAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatAPI.swift; sourceTree = "<group>"; };
+		8AACC53322D8760500E4D8E6 /* CatModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CatModel.xcdatamodel; sourceTree = "<group>"; };
+		8AACC53522D8764100E4D8E6 /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		8AACC53722D8767100E4D8E6 /* Cat+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Cat+CoreDataClass.swift"; sourceTree = "<group>"; };
+		8AACC53822D8767100E4D8E6 /* Cat+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Cat+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		8AACC53B22D876EA00E4D8E6 /* ServerCat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerCat.swift; sourceTree = "<group>"; };
+		8AACC53D22D877B900E4D8E6 /* Country+Saving.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Country+Saving.swift"; sourceTree = "<group>"; };
+		8AACC53F22D8783000E4D8E6 /* Country+Queries.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Country+Queries.swift"; sourceTree = "<group>"; };
+		8AACC54522D87FAB00E4D8E6 /* CatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +72,71 @@
 		8AACC51B22D8714A00E4D8E6 /* Cat Gif ++ */ = {
 			isa = PBXGroup;
 			children = (
-				8AACC51C22D8714A00E4D8E6 /* AppDelegate.swift */,
-				8AACC51E22D8714A00E4D8E6 /* ViewController.swift */,
-				8AACC52022D8714A00E4D8E6 /* Main.storyboard */,
+				8AACC54422D87F8400E4D8E6 /* Cells */,
+				8AACC54322D87ECB00E4D8E6 /* Supporting */,
+				8AACC54222D87EB300E4D8E6 /* Views */,
+				8AACC54122D87A2D00E4D8E6 /* ViewControllers */,
+				8AACC52E22D8718400E4D8E6 /* Networking */,
+				8AACC53122D875A400E4D8E6 /* Model */,
 				8AACC52322D8714C00E4D8E6 /* Assets.xcassets */,
-				8AACC52522D8714C00E4D8E6 /* LaunchScreen.storyboard */,
 				8AACC52822D8714C00E4D8E6 /* Info.plist */,
 			);
 			path = "Cat Gif ++";
+			sourceTree = "<group>";
+		};
+		8AACC52E22D8718400E4D8E6 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				8AACC52F22D8719B00E4D8E6 /* CatAPI.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		8AACC53122D875A400E4D8E6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8AACC53F22D8783000E4D8E6 /* Country+Queries.swift */,
+				8AACC53722D8767100E4D8E6 /* Cat+CoreDataClass.swift */,
+				8AACC53822D8767100E4D8E6 /* Cat+CoreDataProperties.swift */,
+				8AACC53222D8760500E4D8E6 /* CatModel.xcdatamodeld */,
+				8AACC53522D8764100E4D8E6 /* CoreDataStack.swift */,
+				8AACC53D22D877B900E4D8E6 /* Country+Saving.swift */,
+				8AACC53B22D876EA00E4D8E6 /* ServerCat.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8AACC54122D87A2D00E4D8E6 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8AACC51E22D8714A00E4D8E6 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		8AACC54222D87EB300E4D8E6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8AACC52022D8714A00E4D8E6 /* Main.storyboard */,
+				8AACC52522D8714C00E4D8E6 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8AACC54322D87ECB00E4D8E6 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				8AACC51C22D8714A00E4D8E6 /* AppDelegate.swift */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		8AACC54422D87F8400E4D8E6 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				8AACC54522D87FAB00E4D8E6 /* CatCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +210,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AACC53622D8764100E4D8E6 /* CoreDataStack.swift in Sources */,
+				8AACC53C22D876EA00E4D8E6 /* ServerCat.swift in Sources */,
 				8AACC51F22D8714A00E4D8E6 /* ViewController.swift in Sources */,
+				8AACC53A22D8767100E4D8E6 /* Cat+CoreDataProperties.swift in Sources */,
+				8AACC53922D8767100E4D8E6 /* Cat+CoreDataClass.swift in Sources */,
+				8AACC54022D8783000E4D8E6 /* Country+Queries.swift in Sources */,
+				8AACC54622D87FAB00E4D8E6 /* CatCell.swift in Sources */,
 				8AACC51D22D8714A00E4D8E6 /* AppDelegate.swift in Sources */,
+				8AACC53422D8760500E4D8E6 /* CatModel.xcdatamodeld in Sources */,
+				8AACC53E22D877B900E4D8E6 /* Country+Saving.swift in Sources */,
+				8AACC53022D8719B00E4D8E6 /* CatAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +420,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8AACC53222D8760500E4D8E6 /* CatModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8AACC53322D8760500E4D8E6 /* CatModel.xcdatamodel */,
+			);
+			currentVersion = 8AACC53322D8760500E4D8E6 /* CatModel.xcdatamodel */;
+			path = CatModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 8AACC51122D8714900E4D8E6 /* Project object */;
 }
