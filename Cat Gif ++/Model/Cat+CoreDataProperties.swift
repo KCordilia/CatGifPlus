@@ -19,5 +19,6 @@ extension Cat {
 
     @NSManaged public var id: String
     @NSManaged public var url: String
+    @NSManaged public var favourite: Bool
 
 }

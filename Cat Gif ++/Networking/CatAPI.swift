@@ -29,6 +29,7 @@ struct CatServerNetworking {
                 completion(decodedResult)
             } catch let error{
                 print(error)
+                completion([])
             }
         }
     }

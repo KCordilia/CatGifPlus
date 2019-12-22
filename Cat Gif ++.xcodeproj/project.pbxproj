@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B3A54E729B3EF79D546275A /* Pods_Cat_Gif___.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92FB510949553EC818C220DB /* Pods_Cat_Gif___.framework */; };
 		8AACC51D22D8714A00E4D8E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AACC51C22D8714A00E4D8E6 /* AppDelegate.swift */; };
 		8AACC51F22D8714A00E4D8E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AACC51E22D8714A00E4D8E6 /* ViewController.swift */; };
 		8AACC52222D8714A00E4D8E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AACC52022D8714A00E4D8E6 /* Main.storyboard */; };
@@ -21,9 +22,11 @@
 		8AACC53E22D877B900E4D8E6 /* Country+Saving.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AACC53D22D877B900E4D8E6 /* Country+Saving.swift */; };
 		8AACC54022D8783000E4D8E6 /* Country+Queries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AACC53F22D8783000E4D8E6 /* Country+Queries.swift */; };
 		8AACC54622D87FAB00E4D8E6 /* CatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AACC54522D87FAB00E4D8E6 /* CatCell.swift */; };
+		8AACC54822D88EFD00E4D8E6 /* CatDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AACC54722D88EFD00E4D8E6 /* CatDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		37955136F819124CCEED5342 /* Pods-Cat Gif ++.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cat Gif ++.debug.xcconfig"; path = "Target Support Files/Pods-Cat Gif ++/Pods-Cat Gif ++.debug.xcconfig"; sourceTree = "<group>"; };
 		8AACC51922D8714A00E4D8E6 /* Cat Gif ++.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cat Gif ++.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AACC51C22D8714A00E4D8E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8AACC51E22D8714A00E4D8E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,6 +43,9 @@
 		8AACC53D22D877B900E4D8E6 /* Country+Saving.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Country+Saving.swift"; sourceTree = "<group>"; };
 		8AACC53F22D8783000E4D8E6 /* Country+Queries.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Country+Queries.swift"; sourceTree = "<group>"; };
 		8AACC54522D87FAB00E4D8E6 /* CatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatCell.swift; sourceTree = "<group>"; };
+		8AACC54722D88EFD00E4D8E6 /* CatDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatDetailViewController.swift; sourceTree = "<group>"; };
+		92FB510949553EC818C220DB /* Pods_Cat_Gif___.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_Cat_Gif___.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC5F989C5B4FBC39BB61233E /* Pods-Cat Gif ++.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cat Gif ++.release.xcconfig"; path = "Target Support Files/Pods-Cat Gif ++/Pods-Cat Gif ++.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,17 +53,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B3A54E729B3EF79D546275A /* Pods_Cat_Gif___.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		26FF10050F31758A5B499977 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37955136F819124CCEED5342 /* Pods-Cat Gif ++.debug.xcconfig */,
+				AC5F989C5B4FBC39BB61233E /* Pods-Cat Gif ++.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		8AACC51022D8714900E4D8E6 = {
 			isa = PBXGroup;
 			children = (
 				8AACC51B22D8714A00E4D8E6 /* Cat Gif ++ */,
 				8AACC51A22D8714A00E4D8E6 /* Products */,
+				26FF10050F31758A5B499977 /* Pods */,
+				AA553D24DE2499C46640811B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				8AACC51E22D8714A00E4D8E6 /* ViewController.swift */,
+				8AACC54722D88EFD00E4D8E6 /* CatDetailViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -139,6 +158,14 @@
 			path = Cells;
 			sourceTree = "<group>";
 		};
+		AA553D24DE2499C46640811B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92FB510949553EC818C220DB /* Pods_Cat_Gif___.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,9 +173,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8AACC52B22D8714C00E4D8E6 /* Build configuration list for PBXNativeTarget "Cat Gif ++" */;
 			buildPhases = (
+				79F15B2487F8BA03AB52A065 /* [CP] Check Pods Manifest.lock */,
 				8AACC51522D8714A00E4D8E6 /* Sources */,
 				8AACC51622D8714A00E4D8E6 /* Frameworks */,
 				8AACC51722D8714A00E4D8E6 /* Resources */,
+				8DE5B969551292C186594ADD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -205,6 +234,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		79F15B2487F8BA03AB52A065 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cat Gif ++-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DE5B969551292C186594ADD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cat Gif ++/Pods-Cat Gif ++-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cat Gif ++/Pods-Cat Gif ++-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cat Gif ++/Pods-Cat Gif ++-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8AACC51522D8714A00E4D8E6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -212,6 +283,7 @@
 			files = (
 				8AACC53622D8764100E4D8E6 /* CoreDataStack.swift in Sources */,
 				8AACC53C22D876EA00E4D8E6 /* ServerCat.swift in Sources */,
+				8AACC54822D88EFD00E4D8E6 /* CatDetailViewController.swift in Sources */,
 				8AACC51F22D8714A00E4D8E6 /* ViewController.swift in Sources */,
 				8AACC53A22D8767100E4D8E6 /* Cat+CoreDataProperties.swift in Sources */,
 				8AACC53922D8767100E4D8E6 /* Cat+CoreDataClass.swift in Sources */,
@@ -364,6 +436,7 @@
 		};
 		8AACC52C22D8714C00E4D8E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37955136F819124CCEED5342 /* Pods-Cat Gif ++.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -382,6 +455,7 @@
 		};
 		8AACC52D22D8714C00E4D8E6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC5F989C5B4FBC39BB61233E /* Pods-Cat Gif ++.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
